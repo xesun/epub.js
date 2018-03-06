@@ -1,5 +1,5 @@
 EPUBJS.Hooks.register("beforeChapterDisplay").endnotes = function(callback, renderer){
-
+	console.log('ssss')
 		var notes = renderer.contents.querySelectorAll('a[href]'),
 			items = Array.prototype.slice.call(notes), //[].slice.call()
 			attr = "epub:type",

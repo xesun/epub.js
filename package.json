@@ -27,6 +27,7 @@
     "portfinder": "~0.2.1"
   },
   "dependencies": {
+    "eslint": "^4.18.2",
     "jquery": "^2.1.4",
     "jszip": "^2.5.0",
     "localforage": "^1.2.10",

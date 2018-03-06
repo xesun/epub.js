@@ -50,7 +50,7 @@ module.exports = function(grunt) {
 					{src: 'libs/jszip/jszip.min.js', dest: 'build/libs/zip.min.js'},
 					{src: 'build/libs/zip.min.js', dest: 'reader/js/libs/zip.min.js'},
 					{src: 'node_modules/jquery/dist/jquery.min.js', dest:'reader/js/libs/jquery.min.js'},
-				  {src: 'node_modules/screenfull/dist/screenfull.js', dest: 'reader/js/libs/screenfull.js'},
+				  	{src: 'node_modules/screenfull/dist/screenfull.js', dest: 'reader/js/libs/screenfull.js'},
 					{src: 'reader_src/plugins/search.js', dest: 'reader/js/plugins/search.js'},
 					{src: 'reader_src/plugins/hypothesis.js', dest: 'reader/js/plugins/hypothesis.js'},
 					{src: 'hooks/extensions/highlight.js', dest: 'reader/js/hooks/extensions/highlight.js'}
